@@ -1,6 +1,6 @@
 # npmtest-rpi-ws281x-native
 
-#### test coverage for  [rpi-ws281x-native (v0.8.1)](https://github.com/beyondscreen/node-rpi-ws281x-native)  [![npm package](https://img.shields.io/npm/v/npmtest-rpi-ws281x-native.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rpi-ws281x-native) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rpi-ws281x-native.svg)](https://travis-ci.org/npmtest/node-npmtest-rpi-ws281x-native)
+#### basic test coverage for  [rpi-ws281x-native (v0.8.1)](https://github.com/beyondscreen/node-rpi-ws281x-native)  [![npm package](https://img.shields.io/npm/v/npmtest-rpi-ws281x-native.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rpi-ws281x-native) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rpi-ws281x-native.svg)](https://travis-ci.org/npmtest/node-npmtest-rpi-ws281x-native)
 
 #### (raspberry-pi *only*) native bindings to control a strip of WS281x-LEDs with node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rpi-ws281x-native/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rpi-ws281x-native/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rpi-ws281x-native/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
     "scripts": {
         "install": "node-gyp rebuild"
     },
-    "version": "0.8.1"
+    "version": "0.8.1",
+    "bin": {}
 }
 ```
 
